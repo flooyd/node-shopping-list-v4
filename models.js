@@ -13,6 +13,7 @@ const uuid = require('uuid');
 
 function StorageException(message) {
    this.message = message;
+   console.error(message + 'hi');
    this.name = "StorageException";
 }
 
